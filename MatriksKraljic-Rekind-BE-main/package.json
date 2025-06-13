@@ -1,0 +1,24 @@
+{
+  "name": "matrikskraljic-rekind-be",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+  "test": "echo \"Error: no test specified\" && exit 1",
+  "dev": "nodemon server.js",
+  "start": "node server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@supabase/supabase-js": "^2.47.12",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "pg": "^8.13.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  }
+}
